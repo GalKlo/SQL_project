@@ -13,13 +13,15 @@ PostgreSQL (data analysis)
 - 'Employees_schema.sql': SQL script that outlines the architecture of a relational database, featuring tables that are stored in CSV format within *data* folder.
 
 ## Instructions
+Step 1. Run SQl script from 'Employees_schema.sql' in database management system (DBMS).
+Step 2. Upload data from CSV files to the respective SQL tables.
+Step 3. Execute SQl script from 'Employees_data_analysis.sql' to perform the analysis.
 
-
-
-
-Data base is designed based on the provided .csv files by completing the following steps:
+## Data processing steps
 
  1. Data Modeling. ERD was sketched using Quick DBD tool (Employees_db_ERD.png).
+![ERD Diagram](Employees_db_ERD.png)
+ 
 
  2. Data Engineering. A database and the respective tables were created (Employees_schema.sql), followed by uploading the data from .csv files to the corresponding created tables.
 
@@ -32,6 +34,5 @@ Data base is designed based on the provided .csv files by completing the followi
     - Preparing a list of the employees in Sales department, including their employee number, last name, and first name.
     - Preparing a list of the employees in Sales and Development departments, including their employee number, last name and first name.
     - Grouping the employees by their last name and listing the frequency counts for each "last name group" in descending order (how many employees share each last name).
-
 
 ## Results
