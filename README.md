@@ -34,4 +34,9 @@ Step 3. Execute SQl script from 'Employees_data_analysis.sql' to perform the ana
     - Preparing a list of the employees in Sales and Development departments, including their employee number, last name and first name.
     - Grouping the employees by their last name and listing the frequency counts for each "last name group" in descending order (how many employees share each last name).
 
-## Results
+## Results - example
+
+- 36,150 employees were hired in 1986.
+- 20 employees have first name Hercules and last name begins with the letter B.
+- 52,245 records exist for empoyees in Sales department.
+
