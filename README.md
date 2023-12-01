@@ -20,9 +20,8 @@ Step 3. Execute SQl script from 'Employees_data_analysis.sql' to perform the ana
 ## Data processing steps
 
  1. Data Modeling. ERD was sketched using Quick DBD tool (Employees_db_ERD.png).
-![ERD Diagram](Employees_db_ERD.png)
+![Getting Started](EmployeeSQL/Employees_db_ERD.png)
  
-
  2. Data Engineering. A database and the respective tables were created (Employees_schema.sql), followed by uploading the data from .csv files to the corresponding created tables.
 
  3. Data Analysis. Initial steps in understanding the data was performed (Employees_data_analysis.sql), including:
